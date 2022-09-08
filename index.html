@@ -38,26 +38,30 @@
           It is easy to sit up and take notice, what's difficult is getting up
           and taking action.
         </p>
-        <img
-          src="./images/pattern-divider-mobile.svg"
-          alt=""
-          class="divider divider-mobile"
-        />
-        <img
-          src="./images/pattern-divider-desktop.svg"
-          alt=""
-          class="divider divider-desktop"
-        />
+
+        <picture>
+          <source
+            media="(max-width:365px)"
+            srcset="./images/pattern-divider-mobile.svg"
+            class="divider"
+          />
+          <img
+            src="./images/pattern-divider-desktop.svg"
+            alt=""
+            srcset=""
+            class="divider"
+          />
+        </picture>
         <div class="dice-icon">
           <img src="./images/icon-dice.svg" alt="" />
         </div>
       </section>
-      <div class="attribution">
+      <!-- <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Raihan Noor Hasan</a>.
-      </div>
+      </div> -->
     </main>
   </body>
 </html>
