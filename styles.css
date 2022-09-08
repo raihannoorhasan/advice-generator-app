@@ -116,7 +116,7 @@ main {
 
 .advice {
   background-color: var(--neutral-dark-grayish-blue);
-  padding: 4em 1.5rem;
+  padding: 4rem 2.5rem;
   display: grid;
   place-items: center;
   border-radius: 1em;
